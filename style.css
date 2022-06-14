@@ -1,0 +1,91 @@
+
+
+body{
+    font-family:Helvetica, sans-serif, Arial;
+    color: #672929;        
+}
+   
+.container{
+    padding:0;
+    color: #672929;
+
+}
+
+div>div>.card{
+    width: 310px;
+    height:620px;
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    border: none;
+    color: #672929;
+
+}
+.stillh3{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+    color: #672929;  
+}
+.navi{
+    font-weight: bold;  
+    background-color: whitesmoke;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+a {
+    text-decoration: none;
+    text-align: left; 
+    color: #672929;
+}
+a:hover{
+    opacity: 0.7;
+    color: rgb(0, 0, 0);
+}
+div>div>a:hover{
+    opacity: 0.7;
+    color: rgb(0, 0, 0);
+    }
+.nav-item{
+    margin-left:30px ;   
+}
+
+@font-face{
+    font-family:"kozmin2";
+    src:url("font/KozMinPro-Bold.otf");
+ 
+}
+.jumbotron {
+    background-image: url(fotolar/ayca6.png);
+    background-size: cover;
+    background-position: 50% 74%;
+    height: auto;
+    padding: 100px;
+    color: #A26B6B; 
+    text-align: center;
+    font-family:"monoton";
+
+    
+}
+.renk {
+    background-color: rgba(0,0,0, 0.3);
+    display: block;          
+}
+footer {
+    text-align: center;
+    padding: 100px;
+    background-color: whitesmoke;
+    color: black;
+}
+iframe{
+    width: 1280px;
+    height: 300px;
+    position: relative;
+}
+.icons{
+    margin:8px;
+
+
+}

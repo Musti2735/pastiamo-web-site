@@ -1,0 +1,45 @@
+body{
+    font-family:Helvetica, sans-serif, Arial;
+    color: #672929;        
+}
+.baslik{
+    font-family:"monoton";
+    }  
+.col-img {
+    cursor: pointer;  
+}
+
+.col-img:hover {
+    opacity: 0.7;
+}
+.col{
+
+    width: 80%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.control-top{
+    text-align: center;
+}
+div>div>.card{
+    width: 200px;
+    height:400px;
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+div>div>a {
+    color:#672929;
+    text-decoration: none;
+    text-align: center; 
+    cursor: pointer;  
+}
+div>div>a:hover{
+   opacity: 0.7;
+   color: rgb(0, 0, 0);
+}
